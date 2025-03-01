@@ -1,0 +1,105 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #8b6f7d; /* Color de fondo similar a la imagen */
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ====== MENÚ DE NAVEGACIÓN ====== */
+nav {
+    background: #c5bfbf;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background: rgb(238, 215, 215);
+    color: #222;
+}
+
+/* ====== SECCIÓN PROYECTOS ====== */
+#proyectos {
+    text-align: center;
+    padding: 120px 20px 50px;
+    flex: 1;
+}
+
+#proyectos h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* ====== CONTENEDOR DE PROYECTOS ====== */
+.proyectos-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ====== TARJETAS DE PROYECTOS ====== */
+.proyecto-card {
+    background: #c2c2c2; /* Color de los cuadros */
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.proyecto-card h3 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.proyecto-card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}

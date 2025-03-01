@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #8B6F7D;
+    color: black;
+}
+
+/* Menú de navegación */
+nav {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background: white;
+    color: #222;
+}
+
+/* Sección de Blog */
+.blog {
+    padding: 100px 50px 50px;
+    text-align: center;
+}
+
+.blog h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contenedor-blog {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.post, .post-destacado {
+    background: #d1cfd1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    min-width: 280px;
+    text-align: center;
+}
+
+.post h2, .post-destacado h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post p, .post-destacado p {
+    font-size: 14px;
+    color: #333;
+}
+
+.post img, .post-destacado img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* Estilo especial para el post central */
+.post-destacado {
+    width: 45%;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
